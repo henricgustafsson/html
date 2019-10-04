@@ -3,20 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Basic HTML Fundamentals</title>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Basic HTML Fundamentals</h1>
-<nav>
+<h1 id="title">Basic HTML Fundamentals</h1>
+<nav id="topNav">
 <ul>
-<li><a href="#link1">Länk 1</a></li>
-<li><a href="#link2">Länk 2</a></li>
-<li><a href="#link3">Länk 3</a></li>
+<li class="menu-item"><a href="#link1">Länk 1</a></li>
+<li class="menu-item"><a href="#link2">Länk 2</a></li>
+<li class="menu-item"><a href="#link3">Länk 3</a></li>
 </ul>
 </nav>
-<main>
-<h2>Stuff</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim auctor pretium. Integer et mollis risus. Phasellus nunc turpis, vulputate ac consequat vitae, feugiat vitae urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a placerat erat. Fusce fringilla hendrerit diam et convallis. Sed sollicitudin erat est, at porttitor quam pretium eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum convallis mauris ut vehicula facilisis. Vestibulum sed justo nec justo condimentum scelerisque. Suspendisse potenti. Mauris ac maximus velit. Sed elementum a tellus vel suscipit. Aliquam ut scelerisque lorem. Cras vitae vulputate mauris. Donec sit amet orci nisi.</p>
-<article>
+<main id="main">
+<h2 id="mainTitle">Stuff</h2>
+<p id="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim auctor pretium. Integer et mollis risus. Phasellus nunc turpis, vulputate ac consequat vitae, feugiat vitae urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a placerat erat. Fusce fringilla hendrerit diam et convallis. Sed sollicitudin erat est, at porttitor quam pretium eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum convallis mauris ut vehicula facilisis. Vestibulum sed justo nec justo condimentum scelerisque. Suspendisse potenti. Mauris ac maximus velit. Sed elementum a tellus vel suscipit. Aliquam ut scelerisque lorem. Cras vitae vulputate mauris. Donec sit amet orci nisi.</p>
+
+<article class="article">
 <h1>Lorem freaking ipsum</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim auctor pretium. Integer et mollis risus. Phasellus nunc turpis, vulputate ac consequat vitae, feugiat vitae urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a placerat erat. Fusce fringilla hendrerit diam et convallis. Sed sollicitudin erat est, at porttitor quam pretium eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum convallis mauris ut vehicula facilisis. Vestibulum sed justo nec justo condimentum scelerisque. Suspendisse potenti. Mauris ac maximus velit. Sed elementum a tellus vel suscipit. Aliquam ut scelerisque lorem. Cras vitae vulputate mauris. Donec sit amet orci nisi.<p>
 
@@ -25,7 +27,7 @@
 <img src="1.jpg">
 </article>
 
-<article>
+<article class="article">
 <h1>Lorem freaking ipsum</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim auctor pretium. Integer et mollis risus. Phasellus nunc turpis, vulputate ac consequat vitae, feugiat vitae urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin a placerat erat. Fusce fringilla hendrerit diam et convallis. Sed sollicitudin erat est, at porttitor quam pretium eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum convallis mauris ut vehicula facilisis. Vestibulum sed justo nec justo condimentum scelerisque. Suspendisse potenti. Mauris ac maximus velit. Sed elementum a tellus vel suscipit. Aliquam ut scelerisque lorem. Cras vitae vulputate mauris. Donec sit amet orci nisi.<p>
 
@@ -35,7 +37,7 @@
 </article>
 
 
-<aside>
+<aside id="aside">
 <h2>Countries reactionaries think are proof that socialism is evulz</h2>
 <ul>
 <li>Venezuela</li>
@@ -78,6 +80,8 @@
 </ol>
 </aside>
 </main>
+
+<footer id="footer"> © Henric Gustafsson</footer>
 </body>
-<footer>© Henric Gustafsson</footer>
+
 </html>

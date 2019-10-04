@@ -1,0 +1,77 @@
+
+/*title 20% */
+#title{
+	margin-left:25px;
+	display:inline-block;
+	width: 15%
+	
+}
+
+/*topnav 40% (31% width +(3% margin per menu item *3 items =)9% + 1% margin left */
+#topNav{	
+	margin-left:1%;
+	display:inline-block;
+	width:31%;
+	/*40% dead space to the right of the nav*/
+	margin-right: 40%;
+	
+}
+
+.menu-item{
+	display:inline-block;
+	/*3 %  per menu items, 3 items = 9%*/
+	margin-left:3%;
+	border-left:1px solid black;
+	
+}
+.menu-item a{
+	margin-left:3px;
+}
+
+#main{
+	width:60%;
+}
+
+#mainText
+{
+	width:100%;
+	padding:25px;
+	text-align:justify;
+}
+#mainTitle{
+	padding:25px;
+}
+.article{
+	width:40%;
+	display:inline-block;
+	float:left;
+	padding:25px;
+	text-align:justify;
+	
+}
+.article img
+{
+	width:100%;
+}
+
+#aside{
+float:right;
+width:40%;
+top:150px;
+right:0;
+display:block;
+position:absolute;
+padding:25px;
+}
+
+#aside h2, ul
+{
+	margin-left:50px;	
+	list-style: none;
+}
+
+#footer{
+	float: left;
+	width:100%;
+	text-align:center;
+}
